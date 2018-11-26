@@ -1,0 +1,14 @@
+{
+  "addons": {
+    "nuke_saver_firefox@bell.ca": {
+      "updates": [
+        { "version": "1.8",
+          "update_link": "https://github.com/elmb/test/raw/master/nuke_saver-1.8-fx.xpi"                               
+        },
+        { "version": "1.9",
+          "update_link": "https://github.com/elmb/test/raw/master/nuke_saver-1.9-fx.xpi"                               
+        } 
+      ]
+    }
+  }
+}
