@@ -1,0 +1,130 @@
+body {
+    width: 325px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    transform: scale(1);
+    transform-origin: 0 0;
+}
+
+div {
+    height: 30px;
+}
+
+.title {
+    display: inline-block;
+    margin-right: 10px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.switch {
+    position: relative;
+    width: 40px;
+    height: 24px;
+    float: right;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input.warning:checked+.slider {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+input.warning:focus+.slider {
+    box-shadow: 0 0 1px rgba(255, 0, 0, 0.5);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#statusDiv {
+    height: 0; 
+    float:right; 
+    margin-right: 36%;
+}
+
+#status {
+    display: none;
+    color: #990000;
+}
+
+#logo {
+    height: 80%; 
+    float:left; 
+    margin-top: 4px;
+}
+
+#save {
+    float: right;
+    color: 00549a;
+    background-color: white;
+    border-width: 2px;
+    border-color: #00549a;
+    border-style: solid;
+    font-size: 16px;
+    padding: 4px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    height: 100%;
+}
+
+#option_save {
+    float:left;
+    margin-right:10px;
+}
+
+.image-div {
+  float:left;
+  margin-right:10px;
+  max-width: 20%;
+  max-height: 20%;
+}
