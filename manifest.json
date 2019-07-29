@@ -2,7 +2,7 @@
     "name": "Nuke Saver",
     "author": "Bell Canada",
     "manifest_version": 2,
-    "version": "2.2",
+    "version": "2.4",
     "icons": {
         "48": "data/images/Nuke-Saver-icon-48.png",
         "128": "data/images/Nuke-Saver-icon-128.png"
@@ -34,6 +34,6 @@
         "gecko": {
             "update_url": "https://raw.githubusercontent.com/simonleroux/Nuke-Saver-Addon/master/updates.json",
             "id": "nuke_saver_firefox@bell.ca"
-      }
+        }
     }
 }
