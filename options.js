@@ -17,8 +17,8 @@ function save_options() {
     var warning_disable = document.getElementById('disableWarning').checked;
 
     storage.sync.set({
-        findAndListUsersPage: findAndListUsersPage_protected,
-        userConfigurationPage: userConfigurationPage_protected,
+        findAndListEndUsersPage: findAndListUsersPage_protected,
+        endUserConfigurationPage: userConfigurationPage_protected,
         deviceAssociationPage: deviceAssociationPage_protected,
         disableWarning: warning_disable
     }, () => {
@@ -37,13 +37,13 @@ function save_options() {
 // restores checkbox state using the preferences stored in storage
 function restore_options() {
     storage.sync.get({
-        findAndListUsersPage: true,
-        userConfigurationPage: true,
+        findAndListEndUsersPage: true,
+        endUserConfigurationPage: true,
         deviceAssociationPage: true,
         disableWarning: false
     }, (items) => {
-        document.getElementById('findAndListUsersPage').checked = items.findAndListUsersPage;
-        document.getElementById('userConfigurationPage').checked = items.userConfigurationPage;
+        document.getElementById('findAndListUsersPage').checked = items.findAndListEndUsersPage;
+        document.getElementById('userConfigurationPage').checked = items.endUserConfigurationPage;
         document.getElementById('deviceAssociationPage').checked = items.deviceAssociationPage;
         document.getElementById('disableWarning').checked = items.disableWarning;
     });

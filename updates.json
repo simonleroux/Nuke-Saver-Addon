@@ -2,14 +2,18 @@
   "addons": {
     "nuke_saver_firefox@bell.ca": {
       "updates": [
-        { 
+        {
           "version": "2.0",
-          "update_link": "https://github.com/simonleroux/Nuke-Saver-Addon/raw/master/Add-ons/nuke_saver-2.0-fx.xpi"                               
+          "update_link": "https://github.com/simonleroux/Nuke-Saver-Addon/raw/master/Add-ons/nuke_saver-2.0-fx.xpi"
         },
-        { 
+        {
           "version": "2.2",
-          "update_link": "https://github.com/simonleroux/Nuke-Saver-Addon/raw/master/Add-ons/nuke_saver-2.2-fx.xpi"                               
-        } 
+          "update_link": "https://github.com/simonleroux/Nuke-Saver-Addon/raw/master/Add-ons/nuke_saver-2.2-fx.xpi"
+        },
+        {
+          "version": "2.4",
+          "update_link": "https://github.com/simonleroux/Nuke-Saver-Addon/raw/master/Add-ons/nuke_saver-2.4-fx.xpi"
+        }
       ]
     }
   }
